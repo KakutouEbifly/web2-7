@@ -140,7 +140,7 @@ onload = function(){
     
     //プログラムオブジェクトをシェーダに割り当てる
     gl.attachShader(program, vs);
-    gl.attacjShader(program, fs);
+    gl.attachShader(program, fs);
     
     //シェーダをリンク
     gl.linkProgram(program);
