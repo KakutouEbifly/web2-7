@@ -107,7 +107,7 @@ onload = function(){
     if(!scriptElement){return;}
     
     //scriptタグのtype属性をチェック
-    swith(scriptElement.type){
+    switch(scriptElement.type){
       case 'x-shader/x-vertex':     //頂点シェーダ
       shader = gl.createShader(gl.VERTEX_SHADER);
       break;
