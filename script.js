@@ -1,6 +1,6 @@
 onload = function(){
   //canvasエレメントを取得
-  var c = document.getEelementById('canvas');
+  var c = document.getElementById('canvas');
   c.width = 500;
   c.height = 300;
   
