@@ -153,5 +153,6 @@ onload = function(){
     }else{
       //失敗していたらエラーログをアラートする
       alert(gl.getProgramInfoLog(program));
+    }
   }
 }
