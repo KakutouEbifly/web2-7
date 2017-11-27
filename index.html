@@ -13,11 +13,11 @@
       
       void main(void){
         vColor = color;
-        gl_Position = mvpMatrix * vec2(position, 1.0);
+        gl_Position = mvpMatrix * vec4(position, 1.0);
       }
     </script>
     <script id="fs" type="x-shader/x-fragment">
-      precision mapiump float;
+      precision medium float;
       varying vec4 vColor;
       
       void main(void){
